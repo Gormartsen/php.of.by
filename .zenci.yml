@@ -1,0 +1,8 @@
+deploy:
+  master:
+    server: karma.vps-private.net
+    username: zenci
+    dir: '{home}/github/{repo_owner}/{repo_name}/{branch}'
+    env_vars:
+      docroot: '{home}/domains/phpofby.examples.zen.ci'
+      domain: phpofby.examples.zen.ci
