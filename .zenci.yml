@@ -6,4 +6,5 @@ deploy:
     env_vars:
       docroot: '{home}/domains/phpofby.examples.zen.ci'
       domain: phpofby.examples.zen.ci
-
+    scripts:
+      after: '{deploy_dir}/bin/after.php'
