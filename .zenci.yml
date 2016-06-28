@@ -8,3 +8,12 @@ deploy:
       domain: phpofby.examples.zen.ci
     scripts:
       after: '{deploy_dir}/bin/after.php'
+tests:
+  php70:
+    branch:
+      box: 'dual-leam-php70'
+      dir: '{home}/buildir'
+      scripts:
+        init: '{deploy_dir}/bin/init_test_env.sh'
+      tests:
+        - '{deploy_dir}/bin/run_test.sh'
