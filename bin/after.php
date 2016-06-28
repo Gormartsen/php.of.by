@@ -20,7 +20,6 @@ $data = array(
 zenci_put_request($data);
 exit(0);
 
-
 /**
  * Submit a POST request to Zen.ci updating its current status.
  *
