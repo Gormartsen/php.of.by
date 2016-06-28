@@ -1,10 +1,8 @@
 <?php
 /**
  * @file
- * This script file is executed on the Zen.ci platform for running tests.
+ * This script file is executed on the Zen.ci platform for deploy.
  *
- * This essentially just wraps around the run-tests.sh script and uses the
- * result to post the response back to Zen.ci.
  */
 
 $home = getenv('DOCROOT');
