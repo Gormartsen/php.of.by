@@ -8,7 +8,7 @@ deploy:
       domain: phpofby.examples.zen.ci
     scripts:
       after: '{deploy_dir}/bin/after.php'
-tests:
+test:
   php70:
     branch:
       box: 'dual-leam-php70'
