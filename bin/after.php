@@ -15,7 +15,7 @@ chdir($home);
 $data = array(
   'state' => 'success',
   'message' => 'deployed properly to ' . getenv('DOMAIN'),
-  'summary' => 'Test summary',
+  'summary' => 'Website URL http://' . getenv('DOMAIN'),
 );
 zenci_put_request($data);
 exit(0);
