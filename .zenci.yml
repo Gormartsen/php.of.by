@@ -17,3 +17,10 @@ test:
         init: '{deploy_dir}/bin/init_test.sh'
       tests:
         - '{deploy_dir}/bin/run_test.sh'
+    pull_request:
+      box: 'dual-leam-php70'
+      dir: '{home}/buildir'
+      scripts:
+        init: '{deploy_dir}/bin/init_test.sh'
+      tests:
+        - '{deploy_dir}/bin/run_test.sh'
