@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd $ZENCI_DEPLOY_DIR
-php phing.phar build-ci
+sleep 120
+# php phing.phar build-ci
 
 echo test
